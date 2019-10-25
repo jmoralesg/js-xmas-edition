@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Write all your javascript code in this file
 // const name = document.letterToSanta.name.value;
 // const city = document.letterToSanta.city.value;
@@ -16,3 +17,5 @@ function nameValidationError(value) {
 }
 
 // const onlyLetterss = /^[A-z]+$/.test(document.letterToSanta.name.value);
+=======
+>>>>>>> upstream/master
