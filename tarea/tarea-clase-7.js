@@ -1,10 +1,10 @@
 /*
-* Hacer las funciones de validación de validarCiudad y validarDescripcionRegalo.
-* Escribir pruebas para esas funciones.
-*
-* Adicional: Escribir pruebas para las funciones de tareas anteriores.
-*
-* */
+ * Hacer las funciones de validación de validarCiudad y validarDescripcionRegalo.
+ * Escribir pruebas para esas funciones.
+ *
+ * Adicional: Escribir pruebas para las funciones de tareas anteriores.
+ *
+ * */
 const $form = document.querySelector('#carta-a-santa');
 const nombre = $form.nombre.value;
 const ciudad = $form.ciudad.value;
@@ -26,7 +26,7 @@ function validarCiudad(ciudad) {
   if (ciudad.length === 0) {
     return 'Este campo no es valido, al menos una ciudad debe ser seleccionada';
   }
-  if (ciudad === 'Chaco') {
+  if (ciudad === '') {
     return '';
   }
 }
@@ -35,7 +35,7 @@ function validarDescripcionRegalo(descripcion) {
   if (descripcion.lenght === 0) {
     return 'Este campo no es valido, ingrese una descripcion';
   }
-  if (descripcion === 'bici') {
+  if (descripcion === '') {
     return '';
   }
 }

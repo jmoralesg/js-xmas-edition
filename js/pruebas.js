@@ -20,7 +20,7 @@ function probarValidarCiudad() {
   );
 
   console.assert(
-    validarCiudad('Chaco') === '',
+    validarCiudad('') === '',
     'validar ciudad falla al seleccionar una ciudad'
   );
 }
@@ -33,7 +33,7 @@ function probarValidarDescripcionRegalo() {
   );
 
   console.assert(
-    validarDescripcionRegalo('bici') === '',
+    validarDescripcionRegalo('') === '',
     'validar descripcion ingresada falla'
   );
 }
